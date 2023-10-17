@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Juliana Lucas</title>
+    <style>
+
+      @keyframes colorChange {
+          0% { color: #4CAF50; } /* Start color */
+          50% { color: #FF5733; } /* Middle color */
+          100% { color: #4CAF50; } /* End color (same as the start) */
+      }
+
+      table, th, td {
+        border: 1px solid black;
+      }
+
+      /* Style for the navigation bar */
+      .topnav {
+          background-color: #333; /* Background color */
+          overflow: hidden; /* Ensure contents don't overlap */
+      }
+
+      /* Style for the navigation links */
+      .topnav a {
+          float: left; /* Float the links to the left */
+          display: block; /* Make the links block-level elements */
+          color: white; /* Text color */
+          text-align: center; /* Center the text */
+          padding: 14px 16px; /* Padding around the links */
+          text-decoration: none; /* Remove underlines from links */
+          font-family: "Noto Sans", sans-serif;
+      }
+
+      /* Style for the active link */
+      .topnav a.active {
+          background-color: #4CAF50; /* Background color for the active link */
+      }
+
+      /* Hover effect on links */
+      .topnav a:hover {
+          background-color: #555; /* Background color on hover */
+      }
+
+      /* Style for the heading "Juliana Lucas" */
+      /* Title font */
+      h1 {
+          font-family: "Courier New", monospace;
+          border: 1px solid #000; /* Add a 1px black solid border */
+          padding: 10px; /* Add 10px of padding */
+          text-align: center;
+          animation: colorChange 3s linear infinite; /* Use the animation */
+      }
+      /* headers font */
+      h3 {
+          font-family: "Courier New", sans-serif;
+          border: 1px solid #000; /* Add a 1px black solid border */
+      }
+      /* paragraphs font */
+      p {
+        font-family: "Noto Sans", sans-serif;
+        padding: 10px; /* Add 10px of padding */
+        
+      }
+      /* bullet point font */
+      li {
+        font-family: "Noto Sans", sans-serif;
+      }
+      /* Chart font */
+      td {
+        font-family: "Noto Sans", sans-serif;
+      }
+
+      /* Style for the sliders */
+
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+
+    <h1 id="home">Portfolio: Juliana Lucas</h1>
+    <div id="imageContainer" style="text-align: center ;">
+      <img src="C:\Users\Julia\Desktop\cop-op-sys\COP-Ex9\JulianaLinkedin.jpg" alt="Juliana" width="270" height="355" id="profileImage" style="border: 5px solid black;">
+    </div>    
+    <h3 id="about">About</h3>
+    <p>
+      An undergraduate computer science program at the University of Florida. I am currently in an internship with FCI (Florida Community Innovation) where I have worked on the development of a state-wide resource map and an anti-human-trafficking database. I am also an active chair member of my local chapter of Girls Who Code – where I run operations for workshop events and series.</p>
+    <h3>Skills</h3>
+    <ul>
+        <li>C++      <input type="range" id="SkillSlider" min="0" max="100" value="100" disabled>  </li>
+        <li>Java     <input type="range" id="SkillSlider" min="0" max="100" value="90" disabled>   </li>
+        <li>Python   <input type="range" id="SkillSlider" min="0" max="100" value="70" disabled>   </li>
+        <li>MATLAB   <input type="range" id="SkillSlider" min="0" max="100" value="70" disabled>   </li>
+        <li>P5.js    <input type="range" id="SkillSlider" min="0" max="100" value="60" disabled>   </li>
+    </ul>
+
+    <h3>Personal skills</h3>
+    <ul>
+        <li>Excel</li>
+        <li>PowerPoint</li>
+        <li>MATLAB</li>
+        <li>Adobe Premiere</li>
+        <li>Adobe After Effects</li>
+        <li>Alight Motion</li>
+        <li>Capcut</li>
+        <li>Blender</li>
+    </ul>
+
+    <h3>Experience</h3>
+    <table style="width:100%">
+        <tr>
+            <td>Role</td>
+            <td>Position</td>
+            <td>Skills</td>
+        </tr>
+        <tr>
+            <td>Software Development Intern</td>
+            <td>Florida Community Innovation</td>
+            <td>Python, Django, React, HTML, CSS</td>
+        </tr>
+    </table>
+
+    <h3 id="contact">Contact Me</h3>
+    <p>
+        You can contact me at my email address: <a href="mailto:JulianaLuas5235@gmail.com">JulianaLuas5235@gmail.com</a>.
+    </p>
+</body>
+</html>
